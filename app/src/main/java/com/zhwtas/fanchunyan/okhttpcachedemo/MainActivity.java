@@ -172,6 +172,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onCache(String result) {
                 Log.e("TAG","post  onCache---"+result);
+
                 return false;
             }
         });
