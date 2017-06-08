@@ -1,0 +1,26 @@
+<html>  
+<head>  
+<meta http-equiv="Content-Type"  content="text/html;charset=gb2312">  
+<script type="text/javascript">  
+  function sayHello() {
+        alert("js被java调用了")
+    }
+
+    function alertMessage(message) {
+        alert(message)
+    }
+
+    function toastMessage(message) {
+        window.control.toastMessage(message)
+    }
+
+    function sumToJava(number1, number2){
+       window.control.onSumResult(number1 + number2)
+    }
+  
+</script>  
+</head>  
+<body>  
+this is my html 
+</body>  
+</html>
